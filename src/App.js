@@ -42,19 +42,20 @@ const App = () => {
                                 <ExpenseTotal />
                             </div>
                         }
-
+                <h2 className='mt-3'>Allocation</h2>
                         {
                             /* Add ExpenseList component here */
                             <div className='col-sm'>
                                 <ExpenseList />
                             </div>
                         }
+                <h2 className='mt-3'>Change allocation</h2>
 
                         {
                             /* Add ExpenseItem component here */
-                            <div className='col-sm'>
-                                <ExpenseItem />
-                            </div>
+                            // <div className='col-sm'>
+                            //     <ExpenseItem />
+                            // </div>
                         }
 
                         {
